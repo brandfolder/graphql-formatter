@@ -1,3 +1,5 @@
+require 'colorize'
+
 class GraphQLFormatter::CharacterString
   extend Forwardable
   attr_reader :string
